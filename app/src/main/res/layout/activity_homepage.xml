@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Catch me if you can !"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:onClick="play" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="..."
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/lastGame" />
+
+    <Button
+        android:id="@+id/buttonParameters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Parameters"
+        android:onClick="parameters" />
+
+    <Button
+        android:id="@+id/buttonScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:onClick="highScores" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="finish"
+        android:text="Quit" />
+
+</LinearLayout>
